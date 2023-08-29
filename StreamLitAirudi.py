@@ -4,6 +4,8 @@ from azure.storage.blob import BlobServiceClient, ContainerClient
 import FonctionsEDA2 
 import FonctionsBlob2 
 
+
+
 storage_account_name="airudidatalake"
 container_name="stage-aissatou"
 storage_account_key="8fHYfL5HB9WTFx98kDnG+L6TvlNmp24rwOlLeRZQ9QwZl+0zsnqGe0WfL92UbsKEBokqDxCmU6T++AStrBts0g=="
