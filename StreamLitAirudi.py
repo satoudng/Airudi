@@ -51,7 +51,7 @@ if selected_category== "Dépôt de données":
                         else:
                             FonctionsBlob2.upload_blob(fichier.getvalue(), fichier.name,repertoire)
                             if FonctionsBlob2.existence_blob(connection_string, container_name,repertoire+"/"+fichier.name) is True:
-                                st.success(f"Le fichier '{fichier.name}' a bien été téléchargé dans notre base de donées dans votre dossier client sous le nom '{repertoire}/{fichier.name}'.")
+                                st.success(f"Le fichier '{fichier.name}' a bien été téléchargé dans notre base de données dans votre dossier client sous le nom '{repertoire}/{fichier.name}'.")
                             else:
                                 st.error(f"Erreur lors du téléchargement, veuillez réessayer.")
 
@@ -64,7 +64,7 @@ if selected_category== "Dépôt de données":
                         else:
                             FonctionsBlob2.upload_blob(fichier.getvalue(), fichier.name,repertoire)
                             if FonctionsBlob2.existence_blob(connection_string, container_name,repertoire+"/"+fichier.name) is True:
-                                st.success(f"Le fichier '{fichier.name}' a bien été téléchargé dans notre base de donées dans votre dossier client sous le nom '{repertoire}/{fichier.name}'.")
+                                st.success(f"Le fichier '{fichier.name}' a bien été téléchargé dans notre base de données dans votre dossier client sous le nom '{repertoire}/{fichier.name}'.")
                             else:
                                 st.error(f"Erreur lors du téléchargement, veuillez réessayer.")
 
@@ -77,7 +77,7 @@ if selected_category== "Dépôt de données":
                         else:
                             FonctionsBlob2.upload_blob(fichier.getvalue(), fichier.name,repertoire)
                             if FonctionsBlob2.existence_blob(connection_string, container_name, repertoire+"/"+fichier.name) is True:
-                                st.success(f"Le fichier '{fichier.name}' a bien été téléchargé dans notre base de donées dans votre dossier client sous le nom '{repertoire}/{fichier.name}'.")
+                                st.success(f"Le fichier '{fichier.name}' a bien été téléchargé dans notre base de données dans votre dossier client sous le nom '{repertoire}/{fichier.name}'.")
                             else:
                                 st.error(f"Erreur lors du téléchargement, veuillez réessayer.")
 
@@ -90,7 +90,7 @@ if selected_category== "Dépôt de données":
                         else:
                             FonctionsBlob2.upload_blob(fichier.getvalue(), fichier.name,repertoire)
                             if FonctionsBlob2.existence_blob(connection_string, container_name, repertoire+"/"+fichier.name) is True:
-                                st.success(f"Le fichier '{fichier.name}' a bien été téléchargé dans notre base de donées dans votre dossier client sous le nom '{repertoire}/{fichier.name}'.")
+                                st.success(f"Le fichier '{fichier.name}' a bien été téléchargé dans notre base de données dans votre dossier client sous le nom '{repertoire}/{fichier.name}'.")
                             else:
                                 st.error(f"Erreur lors du téléchargement, veuillez réessayer.")
 
@@ -103,7 +103,7 @@ if selected_category== "Dépôt de données":
                         else:
                             FonctionsBlob2.upload_blob(fichier.getvalue(), fichier.name,repertoire)
                             if FonctionsBlob2.existence_blob(connection_string, container_name, repertoire+"/"+fichier.name) is True:
-                                st.success(f"Le blob '{fichier.name}' a bien été téléchargé dans notre base de donées dans votre dossier client sous le nom '{repertoire}/{fichier.name}'.")
+                                st.success(f"Le blob '{fichier.name}' a bien été téléchargé dans notre base de données dans votre dossier client sous le nom '{repertoire}/{fichier.name}'.")
                             else:
                                 st.error(f"Erreur lors du téléchargement, veuillez réessayer.")
       
